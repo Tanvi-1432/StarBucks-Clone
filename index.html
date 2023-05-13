@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINKS TO CSS & JS -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="main.js" defer></script>
+    
+    <link rel="icon" href="/images/Starbucks logo.png">
+    <title>StarBucks Clone</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body class="preload">
+    <header>
+        <nav>
+
+            <!-- MOBILE MENU BAR -->
+
+            <div class="navigation">
+                <div class="nav-wrapper">
+                    <a href="#" class="logo"><img src="images/Starbucks logo.png" width="32px"></a>
+                    <button class="hamburger-btn" aria-expanded="false">
+                        <div class="hamburger">
+                            <span class="top"></span>
+                            <span class="middle"></span>
+                            <span class="bottom"></span>
+                        </div>
+                    </button>
+                </div>
+                <div class="nav-mask"></div>
+                <div class="mobile-navigation">
+                    <ul>
+                        <li class="menu-btn">Menu <img src="images/Arrow-right.png" width="18px"></li>
+                        <a href="">
+                            <li>Rewards</li>
+                        </a>
+                        <a href="">
+                            <li>Gift Cards</li>
+                        </a>
+                    </ul>
+                    <div class="sign-in-btns">
+                        <button><a href="">Sign in</a></button>
+                        <button><a href="" class="join-now">Join now</a></button>
+                    </div>
+                    <div class="store-locator">
+                        <a href=""><svg aria-hidden="true" class="valign-middle pr2" focusable="false"
+                                preserveAspectRatio="xMidYMid meet"
+                                style="width:25px;height:25px;overflow:visible;fill:currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5">
+                                </path>
+                            </svg>
+                            <p>Find a store</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- MENU CONTAINER -->
+                <div class="menu-container">
+                    <div class="menu-title"><img src="images/less-than.png" width="18px">
+                        <p>Menu</p>
+                    </div>
+                    <ul>
+                        <a href="">
+                            <li>All products</li>
+                        </a>
+                        <a href="">
+                            <li>Featured</li>
+                        </a>
+                        <a href="">
+                            <li>Previous Orders</li>
+                        </a>
+                        <a href="">
+                            <li>Favorite Products</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- DESKTOP MENU BAR -->
+
+            <div class="desktop-navigation">
+                <div class="desktop-nav-wrapper">
+                    <div class="desktop-nav-list">
+                        <a href="#" class="logo"><img src="images/Starbucks logo.png" width="32px"></a>
+                        <ul>
+                            <a href="">
+                                <li>MENU</li>
+                            </a>
+                            <a href="">
+                                <li>REWARDS</li>
+                            </a>
+                            <a href="">
+                                <li>GIFT CARDS</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="desktop-restof-nav">
+                        <div class="desktop-store-locator">
+                            <a href="#"><svg aria-hidden="true" class="valign-middle pr2" focusable="false"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    style="width:25px;height:25px;overflow:visible;fill:currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5">
+                                    </path>
+                                </svg>
+                                <p>Find a store</p>
+                            </a>
+                        </div>
+                        <div class="desktop-sign-in-btns">
+                            <button><a href="#">Sign in</a></button>
+                            <button><a href="#" class="join-now">Join now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="primary-content">
+        <!-- FIRST COLOUMN -->
+        <section class="sub-content section-one">
+            <div class="sub-content-img">
+                <img src="images/photo1.webp" width="100%">
+            </div>
+            <div class="image-content">
+                <h2 class="sub-heading">For all they do</h2>
+                <p class="sub-text">Show your gratitude for the teachers and nurses in your life with a thoughtful
+                    Starbucks Card.</p>
+                <button class="sub-btn"><a href="#">Send an eGift</a></button>
+            </div>
+        </section>
+        <!-- SECOND COLOUMN -->
+        <section class="sub-content color-green-starbucks">
+            <div class="sub-content-img">
+                <img src="images/photo2.webp" width="100%">
+            </div>
+            <div class="image-content color-green-accent">
+                <h2 class="sub-heading">Spring in your step, Rewards in your cup</h2>
+                <p class="sub-text">Shake up your usual and start earning Rewards —join today!*</p>
+                <button class="sub-btn"><a href="#">Join now</a></button>
+            </div>
+        </section>
+        <!-- THIRD COLOUMN -->
+        <section class="sub-content section-three">
+            <div class="sub-content-img">
+                <img src="images/photo3.jpg" width="100%">
+            </div>
+            <div class="image-content">
+                <h2 class="sub-heading">Nitro your way</h2>
+                <p class="sub-text">Try the new Cinnamon Caramel Cream Nitro Cold Brew or go for the Vanilla Sweet Cream
+                    Nitro Cold Brew.</p>
+                <button class="sub-btn"><a href="#">Order now</a></button>
+            </div>
+        </section>
+        <!-- FOURTH COLOUMN -->
+        <section class="sub-content section-four">
+            <div class="sub-content-img">
+                <img src="images/photo4.png" width="100%">
+            </div>
+            <div class="image-content">
+                <h2 class="sub-heading">Carefree and cool</h2>
+                <p class="sub-text">Our Pink Drink Starbucks Refreshers® beverage with real strawberry pieces and
+                    coconutmilk is a spring-inspired delight.</p>
+                <button class="sub-btn"><a href="#">Order now</a></button>
+            </div>
+        </section>
+        <!-- FIFTH COLOUMN -->
+        <section class="sub-content section-five">
+            <div class="sub-content-img">
+                <img src="images/photo5.jpg" width="100%">
+            </div>
+            <div class="image-content">
+                <h2 class="sub-heading">Protein perfection</h2>
+                <p class="sub-text">Pick up a hearty Double-Smoked Bacon, Cheddar & Egg Sandwich for breakfast or lunch.
+                </p>
+                <button class="sub-btn"><a href="#">Order now</a></button>
+            </div>
+        </section>
+        <!-- SIXTH COLOUMN -->
+        <section class="sub-content section-six">
+            <div class="sub-content-img">
+                <img src="images/photo6.jpg" width="100%">
+            </div>
+            <div class="image-content">
+                <h2 class="sub-heading">May is Military Appreciation Month</h2>
+                <p class="sub-text">For each Military eGift sold in May, we'll donate $5 to support our military
+                    community.**
+                </p>
+                <button class="sub-btn"><a href="#">Send an eGift</a></button>
+            </div>
+        </section>
+        <!-- REWARDS & DONATION -->
+        <section class="miscellaneous-info">
+            <div class="rewards">
+                <p>*At participating stores. Some restrictions apply. See <a href="">starbucks.com/rewards</a></p>
+            </div>
+            <div class="donation">
+                <p>**For every Starbucks eGift in our Military Appreciation category sold May 1-31, we'll donate $5 to
+                    Blue Star Families
+                    and Operation Gratitude to foster connection and improve the well-being of our military community.
+                    Donations will be
+                    evenly divided between the two organizations. Learn more at <a href="">http://bluestarfam.org</a>
+                    and <a href="">http://operationgratitude.com</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <!-- DESKTOP FOOTER -->
+        <div class="desktop-footer">
+            <div class="desktop-footer-navigation">
+                <section class="dektop-footer-nav-btn">
+                    <div class="desktop-footer-nav-heading">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="desktop-heading-expander">
+                        <ul>
+                            <li><a href="">Our Company</a></li>
+                            <li><a href="">Our Coffee</a></li>
+                            <li><a href="">Stories and News</a></li>
+                            <li><a href="">StarBucks Archive</a></li>
+                            <li><a href="">Investor Relation</a></li>
+                            <li><a href="">Customer Service</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="desktop-footer-nav-btn">
+                    <div class="desktop-footer-nav-heading">
+                        <h2>Careers</h2>
+                    </div>
+                    <div class="desktop-heading-expander">
+                        <ul>
+                            <li><a href="">Culture and Values</a></li>
+                            <li><a href="">Inclusion, Diversity, and Equity</a></li>
+                            <li><a href="">College Achievement Plan</a></li>
+                            <li><a href="">Alumni Community</a></li>
+                            <li><a href="">U.S. Careers</a></li>
+                            <li><a href="">International Careers</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="desktop-footer-nav-btn">
+                    <div class="desktop-footer-nav-heading">
+                        <h2>Social Impect</h2>
+                    </div>
+                    <div class="desktop-heading-expander">
+                        <ul>
+                            <li><a href="">People</a></li>
+                            <li><a href="">Planet</a></li>
+                            <li><a href="">Environmental and Social Impact Reporting</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="desktop-footer-nav-btn">
+                    <div class="desktop-footer-nav-heading">
+                        <h2>For Business Partners</h2>
+                    </div>
+                    <div class="desktop-heading-expander">
+                        <ul>
+                            <li><a href="">Landlord Support Center</a></li>
+                            <li><a href="">Suppliers</a></li>
+                            <li><a href="">Corporate Gift Card Sales</a></li>
+                            <li><a href="">Office and Foodservice Coffee</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="desktop-footer-nav-btn">
+                    <div class="desktop-footer-nav-heading">
+                        <h2>Order and Pickup</h2>
+                    </div>
+                    <div class="desktop-heading-expander">
+                        <ul>
+                            <li><a href="">Order on the App</a></li>
+                            <li><a href="">Order on the Web</a></li>
+                            <li><a href="">Delivery</a></li>
+                            <li><a href="">Order and Pickup Options</a></li>
+                            <li><a href="">Explore and Find Coffee for Home</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- MOBILE FOOTER -->
+
+        <div class="footer-navigation">
+            <section class="footer-nav-btn">
+                <div class="footer-nav-heading about-us-title">
+                    <h2>About Us</h2>
+                    <div class="arrow-btn"><img src="images/Arrow.png" class="arrow-img arrow-1" width="20px"></div>
+                </div>
+                <div class="heading-expander about-us-expander">
+                    <ul>
+                        <li><a href="">Our Company</a></li>
+                        <li><a href="">Our Coffee</a></li>
+                        <li><a href="">Stories and News</a></li>
+                        <li><a href="">StarBucks Archive</a></li>
+                        <li><a href="">Investor Relation</a></li>
+                        <li><a href="">Customer Service</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-nav-btn">
+                <div class="footer-nav-heading careers-title">
+                    <h2>Careers</h2>
+                    <div class="arrow-btn"><img src="images/Arrow.png" class="arrow-img arrow-2" width="20px"></div>
+                </div>
+                <div class="heading-expander careers-expander">
+                    <ul>
+                        <li><a href="">Culture and Values</a></li>
+                        <li><a href="">Inclusion, Diversity, and Equity</a></li>
+                        <li><a href="">College Achievement Plan</a></li>
+                        <li><a href="">Alumni Community</a></li>
+                        <li><a href="">U.S. Careers</a></li>
+                        <li><a href="">International Careers</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-nav-btn">
+                <div class="footer-nav-heading social-impact-title">
+                    <h2>Social Impect</h2>
+                    <div class="arrow-btn"><img src="images/Arrow.png" class="arrow-img arrow-3" width="20px"></div>
+                </div>
+                <div class="heading-expander social-impact-expander">
+                    <ul>
+                        <li><a href="">People</a></li>
+                        <li><a href="">Planet</a></li>
+                        <li><a href="">Environmental and Social Impact Reporting</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-nav-btn">
+                <div class="footer-nav-heading partners-title">
+                    <h2>For Business Partners</h2>
+                    <div class="arrow-btn"><img src="images/Arrow.png" class="arrow-img arrow-4" width="20px"></div>
+                </div>
+                <div class="heading-expander partners-expander">
+                    <ul>
+                        <li><a href="">Landlord Support Center</a></li>
+                        <li><a href="">Suppliers</a></li>
+                        <li><a href="">Corporate Gift Card Sales</a></li>
+                        <li><a href="">Office and Foodservice Coffee</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer-nav-btn">
+                <div class="footer-nav-heading order-title">
+                    <h2>Order and Pickup</h2>
+                    <div class="arrow-btn"><img src="images/Arrow.png" class="arrow-img arrow-5" width="20px"></div>
+                </div>
+                <div class="heading-expander order-expander">
+                    <ul>
+                        <li><a href="">Order on the App</a></li>
+                        <li><a href="">Order on the Web</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Order and Pickup Options</a></li>
+                        <li><a href="">Explore and Find Coffee for Home</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!-- SOCIAL MEDIA -->
+
+        <div class="socials">
+            <a href=""><img src="Socials Logo/facebook.png" width="30px"></a>
+            <a href=""><img src="Socials Logo/spotify.png" width="30px"></a>
+            <a href=""><img src="Socials Logo/instagram.png" width="30px"></a>
+            <a href=""><img src="Socials Logo/youtube.png" width="30px"></a>
+            <a href=""><img src="Socials Logo/twitter.png" width="30px"></a>
+        </div>
+
+        <!-- SECURITY NAVIGATION -->
+
+        <div class="more-footer-nav">
+            <ul>
+                <li><a href="">Privacy Notice</a></li>
+                <span>|</span>
+                <li><a href="">Terms of Use</a></li>
+                <span>|</span>
+                <li><a href="">Do Not Share My Personal Information</a></li>
+                <span>|</span>
+                <li><a href="">CA Supply Chain Act</a></li>
+                <span>|</span>
+                <li><a href="">Cookie Preferences</a></li>
+            </ul>
+        </div>
+        <p class="rights-reserved">© 2023 Starbucks Clone Coffee Company. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

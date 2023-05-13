@@ -37,7 +37,7 @@ A reponsive starbucks landing page clone.
 
 While working on this project, I learned a lot about web development and software engineering. Here are some of the key takeaways:
 
-- Problem-solving: One of the most challenging aspects of this project was creating the hamburger animation. I had to research different strategies and lot of trial and error but ultimately succeeded.
+- Problem-solving: One of the most challenging aspects of this project was creating the hamburger animation. I had to research different strategies and lots of trial and error but ultimately succeeded.
 - Personal growth: Overall, this project was a great learning experience for me, and I feel much more confident as a web developer and software engineer. I gained a deeper understanding of how web applications work and how to build them from scratch.
 
 ```html

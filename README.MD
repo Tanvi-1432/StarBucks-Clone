@@ -1,6 +1,6 @@
 # StarBacks Clone
 
-A reponsive starbucks landing page clone.
+A responsive starbucks landing page clone.
 
 ## Table of contents
 

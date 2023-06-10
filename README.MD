@@ -20,6 +20,10 @@ A responsive starbucks landing page clone.
 
 ![](images/webpage-sceenshot.jpg)
 
+![](images/webpage-screenshot-1.jpg)
+
+![](images/webpage-screenshot-2.jpg)
+
 ### Links
 
 - Live Site URL: [https://tanvi-1432.github.io/StarBucks-Clone/](https://tanvi-1432.github.io/StarBucks-Clone/)
